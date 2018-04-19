@@ -14,7 +14,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def move(array, index, value = "X")
   array[index] = board
-  value = converted_input
+  index = converted_input
 
 end
 
