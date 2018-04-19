@@ -10,5 +10,18 @@ def input_to_index(user_input)
   converted_input = user_input.to_i-1
 end
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+def move(Array, index, value = "X")
+  array[index] = value
+end
+
+move(board, converted_input, "X")
+
+
+
+
+
+
 
 # codenput_to_index and move method here!
