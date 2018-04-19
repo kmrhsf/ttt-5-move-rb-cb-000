@@ -3,12 +3,8 @@
 require_relative "../lib/move.rb"
 
 puts "Welcome to Tic Tac Toe!"
-puts " 1 | 2 | 3 "
-puts "-----------"
-puts " 4 | 5 | 6 "
-puts "-----------"
-puts " 7 | 8 | 9 "
-
+puts display_board
 puts "Where would you like to go?"
 
 user_input = gets.strip
+input_to_index(user_input)
