@@ -18,7 +18,7 @@ def move(array, index, value = "X")
 
 end
 
-move(board, converted_input, value)
+
 
 
 
