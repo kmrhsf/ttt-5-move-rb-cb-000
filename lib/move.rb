@@ -13,7 +13,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def move(array, index, value = "X")
-  array[index] = valeu
+  array[index] = value
   index = converted_input
 
 end
