@@ -2,7 +2,7 @@
 
 require_relative "../lib/move.rb"
 
-board = get_variable_from_file("./lib/move.rb", "board")
+puts board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 
