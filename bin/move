@@ -8,4 +8,5 @@ puts "Where would you like to go?"
 
 user_input = gets.strip
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+array[index] = value
 move(array, converted_input)
