@@ -19,4 +19,4 @@ user_input = gets.strip
 input_to_index(user_input)
 
 array[index] = value
-move(array, converted_input)
+move(board, 0)
