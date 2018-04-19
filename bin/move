@@ -8,4 +8,4 @@ puts "Where would you like to go?"
 
 user_input = gets.strip
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-move(board, converted_input)
+move(array, converted_input)
