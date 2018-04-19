@@ -12,8 +12,12 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move(board, converted_input, "X")
+def move(array, value, "X")
+  array[index] = board
+  value = converted_input
 end
+
+
 
 
 
