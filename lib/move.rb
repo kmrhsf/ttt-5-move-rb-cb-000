@@ -23,7 +23,7 @@ def move(array, index, value = "X")
   move(board, 5, "O")
   move(board, 6, "X")
   move(board, 7, "X")
-  move(board, 8, "O") 
+  move(board, 8, "O")
 
 end
 
